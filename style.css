@@ -99,6 +99,8 @@ header .icon-menu .menu-button-m {
     margin-bottom: 5%;
     padding: 9px 15px;
     display: block;
+    font-weight: bolder;
+    transition: ease-in .3s;
 }
 .menu .menu-ul .menu-li .open-menu {
     display: none;
@@ -106,9 +108,21 @@ header .icon-menu .menu-button-m {
     position:absolute;
     background-color: white;
     border-radius: 5px;
-    margin-top: 40%;
 }
 .menu .menu-ul .menu-li:hover .open-menu {
     display: block;
+}
+.menu-a {
+    transition: ease-in .3s;
+}
+.menu-li:hover .menu-a {
+    color: #ffbe00;
+}
+.open-menu .home-a-2 {
+    color: #ffbe00; 
+}
+.open-menu .open-menu-a:hover {
+    color: #ffbe00;
+    margin-left: 6%;
 }
 a { color: white;}
