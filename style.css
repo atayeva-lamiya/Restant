@@ -27,13 +27,14 @@ ul li {
 }
 a {
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 /* ----- Home ----- */
 .background-img {
     background-image: url("image/1.jpg");
     background-size: cover;
     width: 100%;
-    height: 630px;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
@@ -71,6 +72,7 @@ header .header .menu .menu-ul {
 header .header .menu .menu-ul .menu-li {
     margin-right: 5%;
     position: relative;
+    height: 40px;
 }
 header .header .icon-menu {
     width: 20%;
@@ -108,14 +110,25 @@ header .icon-menu .menu-button-m {
     transition: ease-in .3s;
 }
 .menu .menu-ul .menu-li .open-menu {
-    display: none;
+    opacity: 0;
     width: 250px;
     position:absolute;
     background-color: white;
     border-radius: 5px;
+    transition: .3s ease-in-out;
+    top: 70px;
+    z-index: 5;
 }
 .menu .menu-ul .menu-li:hover .open-menu {
-    display: block;
+    opacity: 1;
+    top: 40px;
+}
+.menu-a i {
+    transition: ease-in-out .3s;
+}
+.menu .menu-ul .menu-li:hover .menu-a i {
+    transform: rotate(90deg);
+    color: #ffbe00;
 }
 .menu-a {
     transition: ease-in .3s;
@@ -136,8 +149,9 @@ a { color: white;}
 .free-home {
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
+    padding-top: 11%;
     width: 100%;
+    z-index: 0;
 }
 .free-home .free-home-text-button {
     width:  50%;
@@ -147,6 +161,7 @@ a { color: white;}
 }
 .free-home .free-home-img img {
     width: 100%;
+    height: 100%;
 }
 .free-home-text .free-home-h1 {
     font-weight: 700;
@@ -154,5 +169,33 @@ a { color: white;}
     color: white;
 }
 .free-home-text .free-home-p {
+    color: white;
+    width: 84%;
+}
+.free-home-button .home-but {
+    width: 22%;
+    height: 48px;
+    border-radius: 50px;
+}
+.free-home-button .home-but .home-but-a {
+    font-size: 15px;
+    font-weight: 500;
+}
+.free-home-button {
+    margin-top: 6%;
+}
+.home-but-order-now {
+    background-color: #ffbe00;
+    border: 0px solid transparent;
+    margin-right: 3%;
+}
+.home-but-free-call {
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+.home-but-a-order-now {
+    color: #0b0320;
+}
+.home-but-a-free-call {
     color: white;
 }
