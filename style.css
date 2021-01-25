@@ -91,14 +91,17 @@ header .icon-menu .icon-cart {
 header .icon-menu .icon-m {
     font-size: 18px;
     color: #212529;
+    transition: ease-in-out .3s;
 }
 header .icon-menu .menu-button-cart {
     background-color: transparent;
     border: 1px solid white;
+    transition: ease-in-out .3s;
 }
 header .icon-menu .menu-button-m {
     background-color: #ffbe00;
     border: 1px solid #ffbe00;
+    transition: ease-in-out .3s;
 }
 .open-menu .open-menu-a {
     color: #0b0320;
@@ -110,7 +113,7 @@ header .icon-menu .menu-button-m {
     transition: ease-in .3s;
 }
 .menu .menu-ul .menu-li .open-menu {
-    opacity: 0;
+    visibility: hidden;
     width: 250px;
     position:absolute;
     background-color: white;
@@ -120,7 +123,7 @@ header .icon-menu .menu-button-m {
     z-index: 5;
 }
 .menu .menu-ul .menu-li:hover .open-menu {
-    opacity: 1;
+    visibility: visible;
     top: 40px;
 }
 .menu-a i {
@@ -136,12 +139,21 @@ header .icon-menu .menu-button-m {
 .menu-li:hover .menu-a {
     color: #ffbe00;
 }
-.open-menu .home-a-2 {
-    color: #ffbe00; 
-}
+
 .open-menu .open-menu-a:hover {
     color: #ffbe00;
     margin-left: 6%;
+}
+header .icon-menu .menu-button-m:hover {
+    background-color: #0b0320;
+    border: 1px solid #0b0320;
+}
+header .icon-menu .menu-button-cart:hover {
+    background-color: #0b0320;
+    border: 1px solid #0b0320;
+}
+header .icon-menu .menu-button-m:hover .icon-m {
+    color: white;
 }
 a { color: white;}
 
@@ -188,14 +200,30 @@ a { color: white;}
     background-color: #ffbe00;
     border: 0px solid transparent;
     margin-right: 3%;
+    transition: ease-in-out .3s;
 }
 .home-but-free-call {
     background-color: transparent;
     border: 1.5px solid white;
+    transition: ease-in-out .3s;
 }
 .home-but-a-order-now {
     color: #0b0320;
+    transition: ease-in-out .3s;
 }
 .home-but-a-free-call {
     color: white;
+    transition: ease-in-out .3s;
+}
+.home-but-order-now:hover {
+    background-color: #0b0320;
+}
+.home-but-order-now:hover .home-but-a-order-now {
+    color: white;
+}
+.home-but-free-call:hover {
+    background-color: white;
+}
+.home-but-free-call:hover .home-but-a-free-call {
+    color: #0b0320;
 }
