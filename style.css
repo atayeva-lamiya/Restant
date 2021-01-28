@@ -10,10 +10,18 @@ body {
 /* html, body, #home, .background-img, .background-color {
     height: 100% !important;
 } */
-h1 {
+h1, h2 {
     font-family: 'Playfair Display', serif;
     margin: 0%;
     padding: 0%;
+}
+span, p {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #a5a4a9;
+    font-size: 15px;
 }
 .z-index {
     position: relative;
@@ -243,4 +251,59 @@ header .icon-menu .menu-button-m:hover .icon-m {
     bottom: -50px;
     left: 10%;
     right: 10%;
+}
+
+/* ---------------- About us ------------------- */
+.about-us {
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.about-us-img {
+    width: 50%;
+}
+.abut-us-img1 {
+    position: absolute;
+    width: 50%;
+}
+.abut-us-img2 {
+    position: relative;
+    left: 42%;
+    bottom: 26.6%;
+    max-width: 335px;
+}
+.about-us-text {
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.about-us-text .about-us-span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffbe00;
+}
+.about-us-text .about-us-h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #0b0320;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.about-us-text .about-us-button {
+    width: 25%;
+    height: 48px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #ffbe00;
+    color: #0b0320;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: poppins,sans-serif;
+    transition: ease-in-out .3s;
+    margin-top: 25px;
+}
+.about-us-text .about-us-button:hover {
+    background-color: #0b0320;
+    color: white;
 }
