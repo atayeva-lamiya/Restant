@@ -119,6 +119,7 @@ header .icon-menu .menu-button-m {
     display: block;
     font-weight: bolder;
     transition: ease-in .3s;
+    text-decoration: none;
 }
 .menu .menu-ul .menu-li .open-menu {
     visibility: hidden;
@@ -129,10 +130,12 @@ header .icon-menu .menu-button-m {
     transition: .3s ease-in-out;
     top: 70px;
     z-index: 5;
+    opacity: 0;
 }
 .menu .menu-ul .menu-li:hover .open-menu {
     visibility: visible;
     top: 40px;
+    opacity: 1;
 }
 .menu-a i {
     transition: ease-in-out .3s;
@@ -255,10 +258,11 @@ header .icon-menu .menu-button-m:hover .icon-m {
 
 /* ---------------- About us ------------------- */
 .about-us {
-    margin-top: 25%;
+    padding-top: 25%;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    position: relative;
 }
 .about-us-img {
     width: 50%;
@@ -271,7 +275,7 @@ header .icon-menu .menu-button-m:hover .icon-m {
     position: relative;
     left: 42%;
     bottom: 26.6%;
-    max-width: 335px;
+    max-width: 49.6%;
 }
 .about-us-text {
     width: 50%;
@@ -306,4 +310,28 @@ header .icon-menu .menu-button-m:hover .icon-m {
 .about-us-text .about-us-button:hover {
     background-color: #0b0320;
     color: white;
+}
+.about-us .about-shape img {
+    position: absolute;
+}
+.about-us .about-shape .about-shape-img1 {
+    right: 0;
+    top: 27%;
+    max-width: 780px;
+}
+.about-us .about-shape .about-shape-img2 {
+    right: 7.5%;
+    top: 27%;
+}
+.about-us .about-shape .about-shape-img3 {
+    top: 32%;
+    right: 20%;
+}
+.about-us .about-shape .about-shape-img4 {
+    top: 28%;
+    right: 33%;
+}
+.about-us .about-shape .about-shape-img5 {
+    top: 26%;
+    right: 47%;
 }
