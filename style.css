@@ -7,6 +7,11 @@ body {
     color: #a5a4a9;
     font-size: 15px;
 }
+.standart-width {
+    margin-left: 10%;
+    margin-right: 8%;
+    max-width: 100%;
+}
 /* html, body, #home, .background-img, .background-color {
     height: 100% !important;
 } */
@@ -172,16 +177,16 @@ header .icon-menu .menu-button-m:hover .icon-m {
 /* -------------- Home text ------------- */
 .free-home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 11%;
     width: 100%;
     z-index: 0;
 }
 .free-home .free-home-text-button {
-    width:  50%;
+    width:  60%;
 }
 .free-home .free-home-img {
-    width: 30%;
+    width: 36%;
 }
 .free-home .free-home-img img {
     width: 100%;
@@ -194,7 +199,7 @@ header .icon-menu .menu-button-m:hover .icon-m {
 }
 .free-home-text .free-home-p {
     color: white;
-    width: 84%;
+    width: 86%;
 }
 .free-home-button .home-but {
     width: 22%;
@@ -266,16 +271,16 @@ header .icon-menu .menu-button-m:hover .icon-m {
 }
 .about-us-img {
     width: 50%;
+    position: relative;
 }
 .abut-us-img1 {
-    position: absolute;
-    width: 50%;
+    max-width: 100%;
 }
 .abut-us-img2 {
-    position: relative;
+    position: absolute;
     left: 42%;
-    bottom: 26.6%;
-    max-width: 49.6%;
+    bottom: 0;
+    max-width: 46.9%;
 }
 .about-us-text {
     width: 50%;
@@ -316,22 +321,22 @@ header .icon-menu .menu-button-m:hover .icon-m {
 }
 .about-us .about-shape .about-shape-img1 {
     right: 0;
-    top: 27%;
+    top: 32%;
     max-width: 57%;
 }
 .about-us .about-shape .about-shape-img2 {
     right: 7.5%;
-    top: 27%;
+    top: 32%;
 }
 .about-us .about-shape .about-shape-img3 {
-    top: 32%;
+    top: 37.5%;
     right: 20%;
 }
 .about-us .about-shape .about-shape-img4 {
-    top: 28%;
+    top: 33%;
     right: 33%;
 }
 .about-us .about-shape .about-shape-img5 {
-    top: 26%;
+    top: 31%;
     right: 47%;
 }
