@@ -340,3 +340,14 @@ header .icon-menu .menu-button-m:hover .icon-m {
     top: 31%;
     right: 47%;
 }
+
+/* -------------------------- SERVICE --------------------------- */
+.SERVICE .service-item {
+    position: relative;
+    background-image: url(image/service-shape.png);
+    background-color: #ffbe00;
+}
+.SERVICE .service-item .service-item-text {
+    position: absolute;
+    text-align: center;
+}
