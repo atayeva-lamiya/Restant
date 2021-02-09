@@ -452,3 +452,23 @@ header .icon-menu .menu-button-m:hover .icon-m {
 /* .SERVICE .service-item:hover .service-button {
     opacity: 0.5;
 } */
+
+
+/* =================================== COLLECTIONS ================================ */
+
+.COLLECTIONS .collections-menu {
+    display: flex;
+    justify-content: center;
+}
+.COLLECTIONS .collections-menu .collection-menu-li {
+    margin: 0.5%;
+}
+.COLLECTIONS .collections-menu .collection-menu-li .collection-menu-but {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0px solid;
+    font-size: 15px;
+    color: #0b0320;
+    font-weight: 500;
+    font-family: poppins,sans-serif;
+}
