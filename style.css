@@ -275,6 +275,9 @@ header .icon-menu .menu-button-m:hover .icon-m {
 .home-but-free-call:hover .home-but-a-free-call {
     color: #0b0320;
 }
+.standart-width-free-home {
+    padding: 0%;
+}
 /* ------------------- Food img area -------------------- */
 .food-img-area .food {
     max-width: 100px;
@@ -471,4 +474,27 @@ header .icon-menu .menu-button-m:hover .icon-m {
     color: #0b0320;
     font-weight: 500;
     font-family: poppins,sans-serif;
+}
+.collections-img {
+    position: relative;
+}
+.collections-img .collections-add-to-cart {
+    position: absolute;
+    background: white;
+    top: 5px;
+    display: flex;
+    right: 0px;
+}
+.collections-img .collections-ul-star {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    background: white;
+    left: 61px;
+    padding: 0%;
+    margin: 0%;
+}
+.collections-img .collections-image {
+    max-width: 100%;
+    width: max-content;
 }
